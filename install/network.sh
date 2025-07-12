@@ -2,7 +2,7 @@
 
 echo "Installing network utilities..."
 
-pacman -Sy --noconfirm --needed iwd impala dhcping dhcpcd net-tools iputils
+pacman -Sy --noconfirm --needed iwd impala dhcping dhcpcd net-tools iputils openssh
 
 # iwd: A modern wireless daemon for managing Wi-Fi connections.
 # impala: A tool for managing network interfaces.
@@ -10,9 +10,11 @@ pacman -Sy --noconfirm --needed iwd impala dhcping dhcpcd net-tools iputils
 # dhcpcd: A DHCP client daemon for obtaining IP addresses.
 # net-tools: Provides essential networking commands like ifconfig, route, netstat, arp, hostname
 # iputils: Provides basic network utilities like ping, traceroute, tracpath, arping, fping.
+# openssh: Provides SSH client and server for secure remote access.
 
 # References: 
 # https://wiki.archlinux.org/title/Iwd#Enable_built-in_network_configuration
+
 echo "Network utilities installed successfully."
 
 # enable dhcpcd service
