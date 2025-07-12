@@ -2,7 +2,15 @@
 
 echo "Installing network utilities..."
 
-pacman -Sy --noconfirm --needed iwd impala dhcping dhcpcd net-tools iputils openssh
+pacman -Sy --noconfirm --needed \
+    iwd \
+    impala \
+    dhcping \
+    dhcpcd \
+    net-tools \
+    iputils \
+    openssh \
+    nmap
 
 # iwd: A modern wireless daemon for managing Wi-Fi connections.
 # impala: A tool for managing network interfaces.
