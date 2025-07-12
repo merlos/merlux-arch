@@ -2,6 +2,7 @@
 
 pacman -Sy --noconfirm --needed \
     wireguard-tools \
-    iptables-nft 
+    iptables-nft \
+    openresolv
 
 
