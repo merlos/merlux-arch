@@ -7,5 +7,7 @@ pacman -Sy --noconfirm --needed \
     alsa-firmware \
     sof-firmware \
     pavucontrol \
-    pipewire-pulse
+    pipewire-pulse \
+    pulseaudio-equializer-ladspa
+    
 echo "Audio utilities installed successfully."

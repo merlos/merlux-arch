@@ -2,6 +2,7 @@ pacman -S --noconfirm --needed \
   kitty \
   hyprland hyprshot hyprpicker hyprlock hypridle  \
   wofi waybar mako swaybg ttf-font-awesome\
+  brightnessctl \
   #polkit-gnome hyprland-qtutils \
   #xdg-desktop-portal-hyprland xdg-desktop-portal-gtk
 
